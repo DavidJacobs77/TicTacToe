@@ -15,7 +15,7 @@
 }
 
 .flash-blue {
-    animation: flash 0.5s;
+    animation: flash 3.5s;
   }
   
   @keyframes flash {
