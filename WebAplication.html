@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="message.css">    
+    <link rel="stylesheet" href="board.css">    
+    <link rel="stylesheet" href="button-container.css">    
+    <link rel="stylesheet" href="cell.css">  
+    <link rel="stylesheet" href="body.css">  
+
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div id="message">Player X's Turn</div>
+
+
+    <div class="board" id="board">
+
+        <div class="cell" onclick="makeMove(0, 0)"></div>
+        <div class="cell" onclick="makeMove(0, 1)"></div>
+        <div class="cell" onclick="makeMove(0, 2)"></div>
+        <div class="cell" onclick="makeMove(1, 0)"></div>
+        <div class="cell" onclick="makeMove(1, 1)"></div>
+        <div class="cell" onclick="makeMove(1, 2)"></div>
+        <div class="cell" onclick="makeMove(2, 0)"></div>
+        <div class="cell" onclick="makeMove(2, 1)"></div>
+        <div class="cell" onclick="makeMove(2, 2)"></div>
+    </div>
+    <div id="message2" style = "font-size: 18pt; margin-top: 20px;"><b>Click on a square to begin</b></div>
+    <div id="message3" style = "font-size: 18pt; margin-top: 20px;">Take turns to click on squares.<br>The first person to position<br>
+    their symbol in a row either<br>horizontally, vertically or<br>diagonally wins the game.</div>
+
+    <div class = "button-container">
+        <button id = "restart-button"  onclick="restartGame()" style = "display: none">Restart</button></div>
+        <script src="script.js"></script>
+
+</body>
+</html>

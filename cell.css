@@ -1,0 +1,26 @@
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.cell.winner {
+    background-color: blue;
+}
+
+.flash-blue {
+    animation: flash 0.5s;
+  }
+  
+  @keyframes flash {
+      25% {
+      background-color: blue;
+    }
+   
+  }
